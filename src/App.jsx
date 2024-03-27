@@ -14,6 +14,7 @@ import {
   DeleteJob, 
   EditJob, 
   Error } from "./pages";
+import ForgetPassword from "./pages/ForgetPassword";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "login",
         element: <Login />,
+      },
+      {
+        path: "forgot-password",
+        element: <ForgetPassword />,
       },
       {
         path: "dashboard",
