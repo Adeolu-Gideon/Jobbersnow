@@ -36,7 +36,7 @@ const Landing = () => {
                 Create an Account{" "}
               </Link>
               <Link
-                to="/"
+                to="/dashboard"
                 className="inline-flex h-12 w-full items-center justify-center rounded-full border-2 border-accent px-4 font-semibold text-green-600 transition-colors duration-200 hover:border-y-green-400 hover:text-green-400 sm:w-auto"
               >
                 Try a Demo Login
