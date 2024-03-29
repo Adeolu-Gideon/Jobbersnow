@@ -1,6 +1,14 @@
-import { HiArrowsExpand, HiGlobeAlt, HiTicket, HiLockClosed } from "react-icons/hi";
+import {
+  HiArrowsExpand,
+  HiGlobeAlt,
+  HiTicket,
+  HiLockClosed,
+  HiOutlineBriefcase,
+  HiOutlineViewGridAdd,
+  HiOutlineUserCircle,
+} from "react-icons/hi";
 
-const features = [
+export const features = [
   {
     name: "Push to deploy.",
     description:
@@ -27,4 +35,33 @@ const features = [
   },
 ];
 
-export default features;
+import { HiOutlineCog8Tooth } from "react-icons/hi2";
+import { TbPresentationAnalytics } from "react-icons/tb";
+
+export const links = [
+  {
+    title: "Add Job",
+    icon: HiOutlineViewGridAdd,
+    link: "./",
+  },
+  {
+    title: "All Jobs",
+    icon: HiOutlineBriefcase,
+    link: "all-jobs",
+  },
+  {
+    title: "Statistics",
+    icon: TbPresentationAnalytics,
+    link: "stats",
+  },
+  {
+    title: "Profile",
+    icon: HiOutlineUserCircle,
+    link: "profile",
+  },
+  {
+    title: "Settings",
+    icon: HiOutlineCog8Tooth,
+    link: "settings",
+  },
+];
