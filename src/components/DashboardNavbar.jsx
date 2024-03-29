@@ -26,7 +26,7 @@ function classNames(...classes) {
                 </Disclosure.Button>
               </div> */}
               <div className="flex items-center justify-center left-0 sm:items-stretch sm:justify-start">
-                <div className="flex flex-shrink-0 items-center">
+                <div className="flex flex-shrink-0 ml-16 items-center">
                   <img
                     className="h-8 w-auto"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"

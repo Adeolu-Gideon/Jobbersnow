@@ -9,7 +9,7 @@ const Sidebar = () => {
       <aside className="fixed z-50 ">
         <input type="checkbox" className="peer hidden" id="sidebar-open" />
         <label
-          className="peer-checked:rounded-full peer-checked:p-2 peer-checked:right-6 peer-checked:bg-gray-600 peer-checked:text-white absolute top-8 z-20 mx-4 cursor-pointer md:hidden"
+          className="peer-checked:rounded-full peer-checked:p-2 peer-checked:right-6 peer-checked:bg-gray-600 peer-checked:text-white absolute top-4 z-20 mx-4 cursor-pointer md:hidden"
           for="sidebar-open"
         >
           <HiOutlineBars3 className="h-8 w-8" />
