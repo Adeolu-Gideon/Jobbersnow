@@ -38,9 +38,33 @@ const router = createBrowserRouter([
         path: "forgot-password",
         element: <ForgetPassword />,
       },
+    ],
+  },
+
+  {
+    path: "dashboard",
+    element: <DashboardLayout />,
+    errorElement: <Error />,
+    children: [
       {
-        path: "dashboard",
-        element: <DashboardLayout />,
+        index: true,
+        element: <AddJob />,
+      },
+      {
+        path: "stats",
+        element: <Stats />,
+      },
+      {
+        path: "all-jobs",
+        element: <AllJobs />,
+      },
+      {
+        path: "profile",
+        element: <Profile />,
+      },
+      {
+        path: "admin",
+        element: <Admin />,
       },
     ],
   },
