@@ -20,10 +20,10 @@ const Sidebar = () => {
         >
           <div className="bg-primary mt-5 py-4 pl-10 md:mt-10">
             <span className="">
-              <span className="mr-1 inline-flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 align-bottom text-2xl font-bold">
-                U
+              <span className="mr-1 inline-flex h-8 w-8 items-center justify-center rounded-full bg-secondary text-primary align-bottom text-2xl font-bold">
+                J
               </span>
-              <span className="text-xl">rbane</span>
+              <span className="text-xl">obbersnow</span>
             </span>
           </div>
           <ul className="mt-8 space-y-3 md:mt-20">
