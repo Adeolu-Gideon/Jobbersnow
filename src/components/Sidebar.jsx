@@ -1,9 +1,11 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { links } from "./constants/data";
 import { HiOutlineBars3 } from "react-icons/hi2";
+import { useDashboardContext } from "../pages/DashboardLayout";
 
 /* eslint-disable react/no-unknown-property */
 const Sidebar = () => {
+  const {toggleSidebar} = useDashboardContext()
   return (
     <>
       <aside className="fixed z-50 ">
@@ -30,16 +32,18 @@ const Sidebar = () => {
             {links.map((item, index) => {
               return (
                 <li key={index} className="relative">
-                  <Link
+                  <NavLink
                     to={item.link}
-                    className="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none items-center"
+                    className="focus:bg-accent hover:bg-accent flex w-full space-x-2 rounded-md px-10 py-4 text-white focus:outline-none items-center"
+                    onClick={toggleSidebar}
+                    end
                   >
                     <item.icon
                       className="h-8 w-8 text-white mr-2"
                       aria-hidden="true"
                     />
                     {item.title}
-                  </Link>
+                  </NavLink>
                 </li>
               );
             })}

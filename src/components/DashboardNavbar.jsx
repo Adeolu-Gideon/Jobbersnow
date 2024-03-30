@@ -30,7 +30,7 @@ function classNames(...classes) {
                   <img
                     className="h-8 w-auto"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
+                    alt="Logo"
                   />
                 </div>
               </div>

@@ -42,7 +42,7 @@ export const links = [
   {
     title: "Add Job",
     icon: HiOutlineViewGridAdd,
-    link: "./",
+    link: ".",
   },
   {
     title: "All Jobs",
