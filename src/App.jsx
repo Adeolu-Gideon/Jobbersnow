@@ -12,7 +12,8 @@ import {
   AddJob, 
   DashboardLayout, 
   DeleteJob, 
-  EditJob, 
+  EditJob,
+  Settings, 
   Error } from "./pages";
 import ForgetPassword from "./pages/ForgetPassword";
 
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
       {
         path: "profile",
         element: <Profile />,
+      },
+      {
+        path: "settings",
+        element: <Settings />,
       },
       {
         path: "admin",
